@@ -53,7 +53,7 @@ function App() {
 
   return (
     <div className="container" onSubmit={handlesearch}>
-      <h1 className="title">Image Search Text</h1>
+      <h1 className="title">Image Search APP</h1>
       <div className="search-section">
         <Form>
           <Form.Control

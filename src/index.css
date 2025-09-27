@@ -113,6 +113,7 @@ body {
   align-items: center;
 }
 
+/* changes made in branch version2*/
 .images .image {
   width: 200px;
   height: 200px;
@@ -120,11 +121,11 @@ body {
   align-self: center;
   margin-left: 2rem;
   border-radius: 10px;
-  transition: transform 0.5s;
+  transition: transform 0.5s ease;
 }
-
+/* changes made in branch version2 */
 .images .image:hover {
-  transform: translateY(-3px);
+  transform: translateY(-3px); 
 }
 
 /* images section ends */
